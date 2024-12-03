@@ -89,17 +89,15 @@ Suspicious Activity Detected:
 
 ### CSV File (`log_analysis_results.csv`):
 ```csv
-IP Address,Request Count
-192.168.1.1,6
-203.0.113.5,9
-10.0.0.2,6
-
-Most Accessed Endpoint,Access Count
-/home,6
-
-IP Address,Failed Login Count
-203.0.113.5,7
-192.168.1.100,5
+IP Address	Request Count
+192.168.1.1	7
+203.0.113.5	8
+10.0.0.2	6
+198.51.100.23	8
+192.168.1.100	5
+Most Accessed Endpoint	Access Count
+/login	13
+IP Address	Failed Login Count
 ```
 
 ---
